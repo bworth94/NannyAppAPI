@@ -18,7 +18,7 @@ import org.springframework.web.bind.annotation.RestController;
 import com.NannyAppAPI.NannyAppAPI.domain.NannyApp;
 import com.NannyAppAPI.NannyAppAPI.repositories.NannyAppRepository;
 
-@CrossOrigin(origins = "https://nanny-app-test.herokuapp.com/")
+@CrossOrigin(origins = "https://nanny-app-test.herokuapp.com")
 @RestController
 @RequestMapping("/nannyApp")
 public class NannyAppController {
